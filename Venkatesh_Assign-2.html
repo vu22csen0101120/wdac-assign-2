@@ -1,0 +1,49 @@
+<html>
+<head>
+</head>
+<body>
+    <div style="display: flex; height: 30%; border: 1px solid black;">
+        <div style="flex: 1; border-right: 1px solid black;">
+            <img src="C:\Users\Acer\Downloads\Venkateshlogo.png" alt="" style="width: 100%; height: 100%;">
+        </div>
+        <div style="flex: 5;">
+            <h1>Venkatesh's EpicPages</h1>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-around; height: 5%; border: 1px solid black;">
+        <div id="home1" onclick="display('home2')">
+            <a href="home.html" target="bottom-right" style="color: black; text-decoration: none;">Home</a>
+        </div>
+        <a href="login.html" target="bottom-right" style="color: black; text-decoration: none;">Login</a>
+        <a href="registration.html" target="bottom-right" style="color: black; text-decoration: none;">Registration</a>
+        <a href="cart.html" target="bottom-right" style="color: black; text-decoration: none;">Cart</a>
+        <a href="contact.html" target="bottom-right" style="color: black; text-decoration: none;">Contact Us</a>
+    </div>
+    <div style="display: flex; border: 1px solid black;">
+        <div style="flex: 1; border-right: 1px solid black; padding: 10px;">
+            <a href="Inspirational.html" target="bottom-right" style="color: black; text-decoration: none;">Inspirational  Books</a><br>
+            <a href="Engineering.html" target="bottom-right" style="color: black; text-decoration: none;">Engineering Books</a><br>
+            <a href="History.html" target="bottom-right" style="color: black; text-decoration: none;">History Books</a><br>
+            <a href="Geographical.html" target="bottom-right" style="color: black; text-decoration: none;">Geographical Books</a>
+        </div>
+        <div style="flex: 6;">
+            <iframe name="bottom-right" style="width: 100%; height: 100%; border: none;">
+                <div id="home2">
+                    <h2>Welcome to Our Book Store</h2>
+                    <p>Discover a world of books across genres. Your next read is just a click away!</p>
+                </div>
+                <div id="login2">
+                    <h2>Login</h2>
+                    <form>
+                        <label for="username">Username:</label><br>
+                        <input type="text" id="username" name="username"><br><br>
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" name="password"><br><br>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
